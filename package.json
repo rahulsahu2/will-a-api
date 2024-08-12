@@ -27,6 +27,7 @@
     "@pdf-lib/fontkit": "^1.1.1",
     "@preconstruct/cli": "^2.1.5",
     "@tinymce/tinymce-react": "^4.0.0",
+    "aws-amplify": "^6.5.0",
     "azure-ad-jwt-v2": "^2.1.4",
     "azure-storage": "^2.10.7",
     "babel-jest": "^29.0.3",
@@ -46,8 +47,17 @@
     "pdf-lib": "^1.17.1",
     "prettier": "^2.5.0",
     "puppeteer": "^18.0.4",
-    "razorpay": "^2.8.3",
-    "typescript": "^4.5.2"
+    "razorpay": "^2.8.3"
   },
-  "repository": "https://github.com/CloudActive/cloud-stream/tree/master/services/api"
+  "repository": "https://github.com/CloudActive/cloud-stream/tree/master/services/api",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.4",
+    "@aws-amplify/backend-cli": "^1.2.2",
+    "aws-cdk": "^2.151.0",
+    "aws-cdk-lib": "^2.151.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
 }
